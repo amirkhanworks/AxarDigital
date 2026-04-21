@@ -1,0 +1,264 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Request a Demo | Axar Digital — SEBI PIT Compliance Software</title>
+  <meta name="description" content="Book a 30-minute product walkthrough with Axar Digital. No slides. Live demo of InsiderLens, BoardEye, or BoardGauge — tailored to your SEBI compliance gap." />
+  <link rel="stylesheet" href="css/style.css" />
+</head>
+<body>
+
+<!-- NAV (simplified — logo + CTA only on demo page) -->
+<nav id="nav">
+  <div class="container nav-inner">
+    <a href="index.html" class="nav-logo">Axar Digital</a>
+    <button class="hamburger" id="hamburger" aria-label="Toggle menu" aria-expanded="false">
+      <span></span><span></span><span></span>
+    </button>
+    <div class="nav-links" id="nav-links">
+      <div class="nav-item dropdown">
+        <button class="nav-link dropdown-trigger" aria-expanded="false">Products ▾</button>
+        <div class="dropdown-menu">
+          <a href="products/insiderlens-lco.html" class="dropdown-item">InsiderLens LCo</a>
+          <a href="products/insiderlens-ifco.html" class="dropdown-item">InsiderLens IFCo</a>
+          <a href="products/boardeye.html" class="dropdown-item">BoardEye</a>
+          <a href="products/boardgauge.html" class="dropdown-item">BoardGauge</a>
+        </div>
+      </div>
+      <a href="sebi-pit-amendment-2025.html" class="nav-link">SEBI Amendment</a>
+      <a href="index.html#resources" class="nav-link">Resources</a>
+      <a href="index.html#about" class="nav-link">About</a>
+      <a href="demo.html" class="btn btn-primary btn-sm">Request Demo</a>
+    </div>
+  </div>
+</nav>
+<div class="nav-spacer"></div>
+
+<!-- HERO -->
+<section class="demo-hero">
+  <div class="container">
+    <span class="label label--white" style="font-size:0.75rem;letter-spacing:0.1em;">No Pitch Deck. No Preamble.</span>
+    <h1>Request a 30-Minute Walkthrough</h1>
+    <p>A focused walkthrough of the product that addresses your specific compliance gap — by a team that knows SEBI PIT Regulations as well as your legal counsel.</p>
+  </div>
+</section>
+
+<!-- DEMO LAYOUT -->
+<section style="background:var(--light);padding:56px 0;">
+  <div class="container">
+    <div class="demo-layout">
+
+      <!-- FORM -->
+      <div class="demo-form-card">
+        <h2>Book your walkthrough</h2>
+        <form action="mailto:compliance@axardigital.in" method="get" enctype="text/plain">
+          <input type="hidden" name="subject" value="Demo Request — Axar Digital Website" />
+
+          <div class="form-group">
+            <label class="form-label" for="d-name">Full Name *</label>
+            <input class="form-control" type="text" id="d-name" name="Full_Name" required placeholder="Your full name" />
+          </div>
+
+          <div class="form-group">
+            <label class="form-label" for="d-title">Job Title *</label>
+            <input class="form-control" type="text" id="d-title" name="Job_Title" required placeholder="e.g. Company Secretary, CCO, CFO" />
+          </div>
+
+          <div class="form-group">
+            <label class="form-label" for="d-company">Company Name *</label>
+            <input class="form-control" type="text" id="d-company" name="Company_Name" required placeholder="Your company name" />
+          </div>
+
+          <div class="form-group">
+            <label class="form-label" for="d-type">Company Type *</label>
+            <select class="form-control" id="d-type" name="Company_Type" required>
+              <option value="" disabled selected>Select company type</option>
+              <option>NSE-Listed Company</option>
+              <option>BSE-Listed Company</option>
+              <option>SEBI-Registered Broker</option>
+              <option>Investment Manager</option>
+              <option>Research Analyst</option>
+              <option>Investment Bank</option>
+              <option>Other</option>
+            </select>
+          </div>
+
+          <div class="form-group">
+            <label class="form-label" for="d-email">Company Email *</label>
+            <input class="form-control" type="email" id="d-email" name="Email" required placeholder="you@company.com" />
+          </div>
+
+          <div class="form-group">
+            <label class="form-label" for="d-phone">Phone <span style="font-weight:400;color:var(--grey);">(optional)</span></label>
+            <input class="form-control" type="tel" id="d-phone" name="Phone" placeholder="+91 98..." />
+          </div>
+
+          <div class="form-group">
+            <label class="form-label">Which product are you interested in?</label>
+            <div class="checkbox-group">
+              <label class="checkbox-item"><input type="checkbox" name="Product" value="InsiderLens LCo" /> InsiderLens LCo</label>
+              <label class="checkbox-item"><input type="checkbox" name="Product" value="InsiderLens IFCo" /> InsiderLens IFCo</label>
+              <label class="checkbox-item"><input type="checkbox" name="Product" value="BoardEye" /> BoardEye</label>
+              <label class="checkbox-item"><input type="checkbox" name="Product" value="BoardGauge" /> BoardGauge</label>
+              <label class="checkbox-item"><input type="checkbox" name="Product" value="Not sure yet" /> Not sure yet</label>
+            </div>
+          </div>
+
+          <div class="form-group">
+            <label class="form-label" for="d-deadline">Most pressing compliance deadline *</label>
+            <select class="form-control" id="d-deadline" name="Deadline" required>
+              <option value="" disabled selected>Select your most urgent deadline</option>
+              <option>June 2025 SEBI PIT Amendment</option>
+              <option>Upcoming SEBI Inspection</option>
+              <option>Annual Board Evaluation</option>
+              <option>Board Meeting This Quarter</option>
+              <option>General Compliance Review</option>
+            </select>
+          </div>
+
+          <button type="submit" class="btn btn-primary btn-full" style="margin-top:8px;padding:16px;">Book My Walkthrough</button>
+          <p class="form-note" style="text-align:center;margin-top:12px;">This opens your email client. We respond within one business day to confirm your slot.</p>
+        </form>
+      </div>
+
+      <!-- ASIDE -->
+      <div class="demo-aside">
+
+        <!-- What to expect -->
+        <div class="demo-aside-card">
+          <h3>What to expect</h3>
+          <div class="step-list">
+            <div class="step-item">
+              <div class="step-num">1</div>
+              <p class="step-text">We confirm your slot within one business day</p>
+            </div>
+            <div class="step-item">
+              <div class="step-num">2</div>
+              <p class="step-text">30 minutes — we respect your time and the agenda is tight</p>
+            </div>
+            <div class="step-item">
+              <div class="step-num">3</div>
+              <p class="step-text">Live product, not slides — you'll see your specific compliance scenario addressed in the platform</p>
+            </div>
+          </div>
+        </div>
+
+        <!-- FAQ accordion -->
+        <div class="demo-aside-card">
+          <h3>What others ask about</h3>
+          <div class="faq-list">
+
+            <div class="faq-item">
+              <button class="faq-question" aria-expanded="false">
+                Do you support customisation for our sector?
+                <span class="faq-icon">+</span>
+              </button>
+              <div class="faq-answer">
+                Yes. InsiderLens and BoardEye are configurable to your company's specific Designated Persons structure, board governance requirements, and committee setup. The walkthrough covers your specific configuration needs.
+              </div>
+            </div>
+
+            <div class="faq-item">
+              <button class="faq-question" aria-expanded="false">
+                How long does implementation take?
+                <span class="faq-icon">+</span>
+              </button>
+              <div class="faq-answer">
+                Typical onboarding is under two weeks. There is no IT infrastructure required — all products are cloud-hosted from day one. Your team is live before the June 2025 amendment effective date.
+              </div>
+            </div>
+
+            <div class="faq-item">
+              <button class="faq-question" aria-expanded="false">
+                Is data hosted in India?
+                <span class="faq-icon">+</span>
+              </button>
+              <div class="faq-answer">
+                Yes. All data is hosted on Indian data centre infrastructure. Full security documentation — including data residency, access controls, and retention architecture — is shared during onboarding.
+              </div>
+            </div>
+
+            <div class="faq-item">
+              <button class="faq-question" aria-expanded="false">
+                Do you integrate with our existing HRMS or board portal?
+                <span class="faq-icon">+</span>
+              </button>
+              <div class="faq-answer">
+                Integration APIs are available for HRMS, existing document management systems, and board portals. The scope of integration is discussed during the walkthrough based on your specific stack.
+              </div>
+            </div>
+
+          </div>
+        </div>
+
+        <!-- Contact block -->
+        <div class="demo-aside-card">
+          <h3>Reach us directly</h3>
+          <div class="contact-block">
+            <div class="contact-item">
+              <span class="contact-icon">✉</span>
+              <a href="mailto:compliance@axardigital.in" style="color:var(--amber);font-weight:600;">compliance@axardigital.in</a>
+            </div>
+            <div class="contact-item">
+              <span class="contact-icon">🌐</span>
+              <span>axardigital.in</span>
+            </div>
+            <div class="contact-item">
+              <span class="contact-icon">📍</span>
+              <span>Mumbai, India</span>
+            </div>
+          </div>
+          <p style="margin-top:16px;font-size:0.875rem;color:var(--grey);">Typical response time: within one business day. We do not use automated scheduling — your slot is confirmed by the team directly.</p>
+        </div>
+
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- FOOTER -->
+<footer class="footer" id="about">
+  <div class="container footer-grid">
+    <div class="footer-col">
+      <div class="footer-logo">Axar Digital</div>
+      <p class="footer-tagline">Cloud-native SEBI PIT and board governance compliance software for listed companies and intermediaries in India.</p>
+      <div class="footer-social">
+        <a href="#" aria-label="LinkedIn">in</a>
+        <a href="#" aria-label="Twitter">𝕏</a>
+      </div>
+    </div>
+    <div class="footer-col">
+      <h4>Products</h4>
+      <ul>
+        <li><a href="products/insiderlens-lco.html">InsiderLens LCo</a></li>
+        <li><a href="products/insiderlens-ifco.html">InsiderLens IFCo</a></li>
+        <li><a href="products/boardeye.html">BoardEye</a></li>
+        <li><a href="products/boardgauge.html">BoardGauge</a></li>
+        <li><a href="sebi-pit-amendment-2025.html">SEBI Amendment Hub</a></li>
+        <li><a href="demo.html">Request Demo</a></li>
+      </ul>
+    </div>
+    <div class="footer-col">
+      <h4>Company</h4>
+      <ul>
+        <li><a href="index.html#about">About</a></li>
+        <li><a href="demo.html">Contact</a></li>
+        <li><a href="index.html#resources">Resources</a></li>
+      </ul>
+      <h4 style="margin-top:20px;">Regulatory</h4>
+      <ul>
+        <li><a href="products/insiderlens-lco.html">SEBI PIT Compliance</a></li>
+        <li><a href="products/boardeye.html">SEBI LODR Compliance</a></li>
+        <li><a href="sebi-pit-amendment-2025.html">2025 Amendment Guide</a></li>
+      </ul>
+    </div>
+  </div>
+  <div class="footer-bottom">
+    <div class="container">© 2025 Axar Digital. All rights reserved. | Registered in India | compliance@axardigital.in</div>
+  </div>
+</footer>
+
+<script src="js/main.js"></script>
+</body>
+</html>
